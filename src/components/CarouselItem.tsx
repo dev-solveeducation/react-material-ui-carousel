@@ -48,7 +48,7 @@ export const CarouselItem = ({
       const { offset } = info;
       const absX = Math.abs(offset.x);
       const absY = Math.abs(offset.y);
-      const threshold = 60;
+      const threshold = 0;
 
       if (absX > absY && absX > threshold) {
         if (offset.x > 0) prev && prev();

@@ -47,7 +47,7 @@ var CarouselItem = function (_a) {
             var offset = info.offset;
             var absX = Math.abs(offset.x);
             var absY = Math.abs(offset.y);
-            var threshold = 60;
+            var threshold = 0;
             if (absX > absY && absX > threshold) {
                 if (offset.x > 0)
                     prev && prev();
